@@ -1,9 +1,13 @@
+import React from "react";
+import DestinationContainer from "./components/DestinationContainer";
+
 function App() {
   return (
     <div>
-      {/* Your code here */}
+      <h1>🌎 Travel Destinations</h1>
+      <DestinationContainer />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
